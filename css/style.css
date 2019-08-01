@@ -3,6 +3,26 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+
+
+nav{
+  background-color: #7EDBA2;
+}
+nav a{
+  color: white;
+
+}
+
+nav img{
+  width: 40px;
+  height: 40px;
+}
+nav li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header {
   padding: 156px 0 100px;
 }
