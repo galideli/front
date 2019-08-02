@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Galideli - Account</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/style.css" rel="stylesheet">
+
+
+    <link rel="manifest" href="../manifest.json">
+    <link rel="icon" href="../assets/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../assets/favicon/apple-touch-icon.png">
+    <meta name="theme-color" content="white">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="QualityTracker">
+    <meta name="msapplication-TileImage" content="../assets/favicon/android-chrome-512x512.png">
+    <meta name="msapplication-TileColor" content="#000000">
+</head>
+
+<body>
+    <div class="container">
+        <h2 id="account-title" class="offset-md-3">Mon compte</h2>
+        <div id="personal-info-card" class="col-md-6 col-12 offset-md-3 card">
+            <h3 id="personal-info-title" class="card-title">Informations personnelles</h3>
+            <form id="personal-info-form" class="form-group">
+                <label id="name-label">Prénom</label>
+                <input id="name-input" type="text" class="form-control" value="Romain"></input>
+                <label id="last-name-label">Nom</label>
+                <input id="last-name-input" type="text" class="form-control" value="Henri"></input>
+                <label id="email-label">Email</label>
+                <input id="email-input" type="email" class="form-control" value="romain.henri@sogeti.com"></input>
+                <label id="phone-label">Téléphone</label>
+                <input id="phone-input" type="text" class="form-control" value="06 12 34 56 78"></input>
+                <button id="personal-info-button" class="col-6 offset-3">Enregistrer</button>
+            </form>
+        </div>
+        <div id="password-card" class="col-md-6 col-12 offset-md-3 card">
+            <h3 id="password-title">Mot de passe</h3>
+            <form id="password-form" class="form-group">
+                <label id="password-label">Mot de passe actuel</label>
+                <input id="password-input" type="text" class="form-control"></input>
+                <button id="password-button" class="col-6 offset-3">Modifier</button>
+            </form>
+        </div>
+        <div id="new-password-card" class="col-md-6 col-12 offset-md-3 card d-none">
+            <!-- Add cross to close card -->
+            <h3 id="new-password-title">Mot de passe</h3>
+            <form id="new-password-form" class="form-group">
+                <label id="new-password-label">Nouveau mot de passe</label>
+                <input id="new-password-input" type="text" class="form-control"></input>
+                <label id="new-password-confirm-label">Confirmer</label>
+                <input id="new-password-confirm-input" type="text" class="form-control"></input>
+                <button id="new-password-button" class="col-6 offset-3">Enregistrer</button>
+            </form>
+        </div>
+        <div id="address-card" class="col-md-6 col-12 offset-md-3 card">
+            <h3 id="address-title">Adresses de livraison</h3>
+            <div class="form-group">
+                <hr>
+                <div class="address-item">
+                    <p>14 Boulevard Haussmann</p>
+                    <p>Paris, France</p>
+                </div>
+                <hr>
+                <div class="address-item">
+                    <p>147 Quai du Président Roosevelt</p>
+                    <p>Issy-les-Moulineaux, France</p>
+                </div>
+                <hr>
+                <div class="address-item">
+                    <p>5 Rue Coq Héron</p>
+                    <p>Paris, France</p>
+                </div>
+                <button id="address-button" class="col-6 offset-3">Ajouter</button>
+            </div>
+        </div>
+        <div id="new-address-card" class="col-md-6 col-12 offset-md-3 card d-none">
+            <!-- Add cross to close card -->
+            <h3 id="new-address-title">Adresses de livraison</h3>
+            <form id="new-address-form" class="form-group">
+                <label id="new-address-label">Nouvelle adresse</label>
+                <input id="new-address-input" type="text" class="form-control"></input>
+                <button id="new-address-button" class="col-6 offset-3">Enregistrer</button>
+            </form>
+        </div>
+        <div id="payment-card" class="col-md-6 col-12 offset-md-3 card">
+            <h3 id="payment-title">Moyens de paiement</h3>
+            <div class="form-group">
+                <hr>
+                <div class="payment-item">
+                    <!-- Add mastercard logo -->
+                    <p>Mastercard: **** **** **** 1234</p>
+                </div>
+                <button id="payment-button" class="col-6 offset-3">Ajouter</button>
+            </div>
+        </div>
+        <div id="new-payment-card" class="col-md-6 col-12 offset-md-3 card d-none">
+            <!-- Add cross to close card -->
+            <h3 id="new-payment-title">Moyens de paiement</h3>
+            <form id="new-payment-form" class="form-group">
+                <label id="new-payment-label">Nouvelle carte</label>
+                <input id="new-payment-input" type="text" class="form-control"></input>
+                <button id="new-payment-button" class="col-6 offset-3">Enregistrer</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
