@@ -179,6 +179,11 @@ label {
 }
 #orderlist-card{
   height: 70vh;
+  justify-content: flex-start;
+
+}
+#orderlist-card ul{
+  list-style: none;
 }
 .recap-group{
   display: flex;
