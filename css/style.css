@@ -10,6 +10,7 @@ body {
 
 nav {
   background-color: #7EDBA2;
+  width: 100vw;
 }
 nav a{
   color: white;
@@ -17,7 +18,6 @@ nav a{
 }
 
 nav img {
-  width: 40px;
   height: 40px;
 }
 nav li {
@@ -31,11 +31,15 @@ header {
 }
 
 section {
-  padding: 150px 0;
+  padding: 50px 0;
 }
 
 label {
   margin-bottom: 0;
+}
+
+#deli-link {
+  line-height: 40px;
 }
 
 #homepage-container{
@@ -127,6 +131,20 @@ label {
   font-size: 1.3rem;
 }
 
+#decoration {
+  width: 500px;
+  position: absolute;
+  right: -250px;
+  top: 600px;
+}
+
+#line-sep {
+  align-self: center;
+  border-top: #7EDBA2 solid 2px;
+  width: 600px;
+  padding-bottom: 30px;
+}
+
 .card {
   display: block;
   padding: 1.5rem;
@@ -187,4 +205,7 @@ label {
   border: none;
   color: white;
   background: linear-gradient(to right, #7EDBA2, #83F4AF);
+}
+.nav-link:hover {
+  color: white;
 }
