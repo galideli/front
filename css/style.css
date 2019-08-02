@@ -121,14 +121,14 @@ label {
 }
 
 
-#homepage-container form button {
+#homepage-container form button, #inputfile-label {
   color: white;
   padding: 12px 60px;
   border: none;
   border-radius: 60px;
   background: linear-gradient(to right, #7EDBA2, #83F4AF);
   margin-bottom: 2rem;
-  font-size: 1.3rem;
+  font-size: 1.3rem !important;
 }
 
 #decoration {
