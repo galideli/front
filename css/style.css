@@ -209,3 +209,7 @@ label {
 .nav-link:hover {
   color: white;
 }
+
+.container-home {
+  margin-top: 100px;
+}

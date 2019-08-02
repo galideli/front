@@ -14,7 +14,7 @@
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 
 
     <link rel="manifest" href="../manifest.json">
@@ -31,27 +31,38 @@
 </head>
 
 <body>
-    <div class="container">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg justify-content-between fixed-top" id="mainNav">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../assets/images/Logo_texte_blanc_sur_blanc.png">
+        </a>
+        <div class="d-flex">
+            <a id="deli-link" class="nav-link" href="#">Mes livraisons</a>
+            <a class="nav-link" href="./account.html">
+                <img src="../assets/icons/account.png" alt="account icon" id="account">
+            </a>
+        </div>
+    </nav>
+
+    <div class="container container-home d-flex">
+        <div id="signup-card" class="col-md-4 col-12 card">
+            <h3 id="signup-title">Inscription</h3>
+            <form id="signup-form" class="form-group">
+                <input id="last-name-input" type="text" placeholder="Nom" class="form-control"></input>
+                <input id="name-input" type="text" placeholder="Prénom" class="form-control"></input>
+                <input id="email-input" type="text" placeholder="Email" class="form-control"></input>
+                <input id="password-input" type="text" placeholder="Mot de passe" class="form-control"></input>
+                <input id="confirm-input" type="text" placeholder="Confirmation" class="form-control"></input>
+                <button id="signup-button">S'inscrire</button>
+                <a id="login-link" href="./login.html">Se connecter</a>
+            </form>
+        </div>
+
         <div id="home-panel" class="col-md-8 col-12">
             <div id="brand-logo"></div>
             <div id="brand-desc">Faites-vous livrer vos médicaments, n'importe où, n'importe quand.</div>
             <div id="home-picture"></div>
         </div>
-
-        <div id="signup-card" class="col-md-4 col-12">
-            <h3 id="signup-title">Inscription</h3>
-            <form id="signup-form">
-                <input id="last-name-input" type="text" placeholder="Nom"></input>
-                <input id="name-input" type="text" placeholder="Prénom"></input>
-                <input id="email-input" type="text" placeholder="Email"></input>
-                <input id="password-input" type="text" placeholder="Mot de passe"></input>
-                <input id="confirm-input" type="text" placeholder="Confirmation"></input>
-                <button id="signup-button">S'inscrire</button>
-                <a id="login-link" href="#">Se connecter</a>
-            </form>
-        </div>
-
-
     </div>
 </body>
 
