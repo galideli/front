@@ -32,10 +32,7 @@
 
 window.addEventListener("load", function(){
 
-  const fileSelector = document.getElementById('input-file');
-  fileSelector.onchange = () => {
-    location.href='./pages/live-tracking.html';
-  }
+
 
 
 
@@ -90,7 +87,7 @@ function hinter(event) {
                 ///parse item to get item.name
                   console.log("item:"+ JSON.stringify(item));
 
-                  option.innerHTML = "<button>"+item.name+"</button>";
+                  option.innerHTML = "<button onclick=\"location.href=\'.\/order.html\'\">"+item.name+"</button>";
 
                   // attach the option to the datalist element
                   drugs_list.appendChild(option);
