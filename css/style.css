@@ -71,7 +71,7 @@ label {
 
 #search-container #drugs_list{
   list-style: none;
-  
+
 }
 
 #search-container #drugs_list li{
@@ -126,4 +126,47 @@ label {
   font-size: 18px;
   padding: 0.5rem 1.7rem;
   margin-top: 1rem;
+}
+
+#order-container{
+  margin-top: 80px;
+  display: flex;
+  padding-top: 80px;
+}
+.order-card{
+  box-shadow:rgba(0,0,0,0.2) 0px 3px 12px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:20px;
+}
+#orderlist-card{
+  height: 70vh;
+}
+.recap-group{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  height: 70vh;;
+}
+.modify-button{
+  padding: 8px 70px;
+  border-radius: 50px;
+  color: #7EDBA2;
+  border: #7EDBA2 solid 1px;
+  background-color: white;
+}
+.modify-button:hover{
+  color: white;
+  background: linear-gradient(to right, #7EDBA2, #83F4AF);
+}
+.order-button{
+  padding: 8px 70px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background: linear-gradient(to right, #7EDBA2, #83F4AF);
 }
