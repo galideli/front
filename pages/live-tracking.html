@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../css/live-tracking.css">
+    <script type="text/javascript" src="../js/live-tracking.js"></script>
+
+  </head>
+  <body>
+    <div class="pac-card" id="pac-card">
+        <div>
+          <div id="title">
+            recherche d'address
+          </div>
+
+        </div>
+        <div id="pac-container" class="padding">
+          <input id="pac-input" type="text"
+              placeholder="Enter a location">
+        </div>
+      </div>
+      <div id="floating-panel">
+        <b>Mode of Travel: </b>
+        <select id="mode">
+          <option value="DRIVING">Driving</option>
+          <option value="WALKING">Walking</option>
+          <option value="BICYCLING">Bicycling</option>
+          <option value="TRANSIT">Transit</option>
+        </select>
+        </div>
+      <div id="map"></div>
+      <div id="infowindow-content">
+        <img src="" width="16" height="16" id="place-icon">
+        <span id="place-name"  class="title"></span><br>
+        <span id="place-address"></span>
+      </div>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwy5379ksBau4vsnTmckzVmOoSaJXCirE&callback=initMap&libraries=places"
+    async defer></script>
+  </body>
+</html>
