@@ -71,15 +71,33 @@ label {
 
 #search-container #drugs_list{
   list-style: none;
-
 }
 
 #search-container #drugs_list li{
   border: #707070 solid 1px;
   border-radius: 60px;
-  font-size: 2rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+
+}
+#search-container #drugs_list li:hover{
+  background: linear-gradient(to right, #7EDBA2, #83F4AF);
+  color: white !important;
+  border-color: white;
+}
+#search-container #drugs_list li button{
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  text-align: start;
+
+  padding: 10px 20px;
+
 }
 
+#search-container #drugs_list li button:focus{
+  outline: none;
+}
 
 
 #homepage-container{
