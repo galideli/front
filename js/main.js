@@ -32,6 +32,15 @@
 
 window.addEventListener("load", function(){
 
+  const fileSelector = document.getElementById('input-file');
+  fileSelector.onchange = () => {
+    location.href='./pages/live-tracking.html';
+  }
+
+
+
+
+
   // Add a keyup event listener to our input element
   var name_input = document.getElementById('name-input');
   name_input.addEventListener("keyup", function(event){hinter(event)});
