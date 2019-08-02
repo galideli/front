@@ -30,3 +30,41 @@ header {
 section {
   padding: 150px 0;
 }
+
+#homepage-container{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+#logo-title{
+
+}
+
+#search-section{
+  
+}
+#homepage-container{
+  width: 100%;
+  text-align: center;
+}
+#homepage-container form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+#homepage-container form input{
+  border: black solid 1px;
+  border-radius: 60px;
+  height: 50px;
+}
+
+#homepage-container form button {
+  color: white;
+  padding: 12px 60px;
+  border: none;
+  border-radius: 60px;
+  background: linear-gradient(to right, #7EDBA2, #83F4AF);
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+}
