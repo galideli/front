@@ -1,100 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Galideli - Homepage</title>
+  <title>Galideli - Homepage</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
 
-    <link rel="manifest" href="/manifest.json">
-    <link rel="icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
-    <meta name="theme-color" content="white">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="QualityTracker">
-    <meta name="msapplication-TileImage" content="assets/favicon/android-chrome-512x512.png">
-    <meta name="msapplication-TileColor" content="#000000">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="white">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="QualityTracker">
+  <meta name="msapplication-TileImage" content="assets/favicon/android-chrome-512x512.png">
+  <meta name="msapplication-TileColor" content="#000000">
 
-  </head>
+</head>
 
-  <body id="page-top">
+<body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="./pages/deliveries.html">Mes livraisons</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="./pages/account.html">
-                <img src="./assets/icons/account.png" alt="account icon" id="account">
-              </a>
-            </li>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg justify-content-between fixed-top" id="mainNav">
+    <a class="navbar-brand" href="#page-top">
+      <img src="assets/images/Logo_texte_blanc_sur_blanc.png">
+    </a>
+    <div class="d-flex">
+      <a id="deli-link" class="nav-link" href="./pages/deliveries.html">Mes livraisons</a>
+      <a class="nav-link" href="./pages/account.html">
+        <img src="./assets/icons/account.png" alt="account icon" id="account">
+      </a>
+    </div>
+  </nav>
 
-          </ul>
-        </div>
+  <div id="homepage-container" class="">
+    <section id="homepage-section" class="col-md-6 col-12">
+
+      <div id="logo-title">
+        <img src="./assets/images/logo_homepage.png" alt="logo image" />
       </div>
-    </nav>
+      <section id="search-section" class="">
+        <form action="">
+          <button onclick="location.href='./pages/search.html'" type="button">
+            Commander des médicaments sans
+            ordonnance
+          </button>
+          <hr id="line-sep">
+          <button>Ajouter une prescription</button>
 
-      <div id="homepage-container" class="">
-        <section id="homepage-section" class="col-md-4 col-10">
+        </form>
+      </section>
+      <aside>
+        <img id="decoration" src="./assets/images/full_pills.png" alt="pills drawings">
+      </aside>
+    </section>
 
-          <div id="logo-title">
-            <img src="./assets/images/logo_homepage.png" alt="logo image"/>
-          </div>
-          <section id="search-section" class="">
-            <form action="">
-              <button onclick="location.href='./pages/search.html'" type="button">Commander des médicaments sans ordonnance</button>
-              <hr>ou<hr>
-              <button>Ajouter une prescription</button>
-              
-            </form>
-          </section>
-          <aside id="decoration">
-            <img src="./assets/images/full_pills.png" alt="pills drawings">
-          </aside>
-        </section>
-
-      </div>
+  </div>
 
 
-    <!-- Footer -->
-    <footer class="py-5">
-      <div class="container">
-        <p class="m-0 text-center text-white">Galideli - Choupi & Co 2019</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+  <!-- Footer -->
+  <footer class="py-5">
+    <div class="container">
+      <p class="m-0 text-center text-white">Galideli - Choupi & Co 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Custom JavaScript for this theme -->
-    <script src="js/main.js"></script>
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/main.js"></script>
 
-  </body>
+</body>
 
 </html>
